@@ -1,0 +1,59 @@
+@import url("./reset.css");
+
+:root {
+    --fonte-principal: "Inter";
+    --plano-de-fundo: #19A7CE;
+    --cor-primaria: #FFFFFF;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background: var(--plano-de-fundo);
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 6em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--cor-primaria);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 4em;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.btn-jogar {
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 8px 15px;
+    border: 0;
+    background: var(--cor-primaria);
+    border-radius: 5px;
+    margin-top: 30px;
+}

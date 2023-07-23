@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    <h1>Acerte o número secreto</h1>
+
+    <h3>O número secreto está entre <span id="menor-valor">0</span> e <span id="maior-valor">1000</span></h3>
+
+    <div id="chute" class="mensagem">
+        <!-- <div>Você disse:</div>
+        <span class="box">20</span>
+        <div>O número secreto é maior <i class="fa-solid fa-arrow-up-long"></i></div> -->
+    </div>
+    
+    <script src="./assets/js/sortearNumero.js"></script>
+    <script src="./assets/js/reconhecimento_de_voz.js"></script>
+    <script src="./assets/js/validacao.js"></script>
+</body>
+</html>
